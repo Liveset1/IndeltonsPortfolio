@@ -11,19 +11,7 @@ app.use(express.json());
 // mongoose.connect( mongoAtlasUri, {useNewUrlParser: true, useUnifiedTopology: true})
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
-});
-
-app.post('/matches/', (request, response) => {
-    if (request.body.Data) {
-        
-    } else {
-        response.status(400).send("Unable to retrieve Data!")
-    }
-})
-
-app.get('/players', (request, response) => {
-    response.send()
+  res.send('Hello World2!')
 });
 
 app.listen(port, () => {
