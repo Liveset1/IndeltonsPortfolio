@@ -1,0 +1,23 @@
+{
+  "name": "indeltons_portfolio",
+  "version": "1.0.0",
+  "description": "This is Indelton's Portfolio",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liveset1/IndeltonsPortfolio.git"
+  },
+  "author": "Indelton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Liveset1/IndeltonsPortfolio/issues"
+  },
+  "homepage": "https://github.com/Liveset1/IndeltonsPortfolio#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
